@@ -2,7 +2,7 @@ from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Annotated
 from langchain_core.messages import BaseMessage
 import langchain_ollama
-from langgraph.checkpoint.memory import InMemorySaver
+from langgraph.checkpoint.memory import InMemorySaver 
 from langgraph.graph.message import add_messages
 
 # Use Ollama LLaMA3 model
